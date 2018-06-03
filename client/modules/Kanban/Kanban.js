@@ -34,5 +34,5 @@ Kanban.propTypes = {
   lanes: PropTypes.array,
   createLane: PropTypes.func,
 };
-  
+
 export default connect(mapStateToProps, mapDispatchToProps)(Kanban);

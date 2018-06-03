@@ -23,8 +23,8 @@ const Lane = (props) => {
         /></h4>
       </div>
       <div className={styles.LaneAddNote}>
-          <button onClick={() => addNote({ task: 'New Note'}, laneId)}>Add Note</button>
-        </div>      
+        <button onClick={() => addNote({ task: 'New Note' }, laneId)}>Add Note</button>
+      </div>
       <NotesContainer
         notes={laneNotes}
         laneId={laneId}
