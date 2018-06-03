@@ -11,7 +11,7 @@ const Lane = (props) => {
   return (
     <div className={styles.Lane}>
       <div className={styles.LaneDelete}>
-        <button onClick={() => deleteLane(laneId)}>Remove Lane</button>
+        <button onClick={() => deleteLane(lane)}>Remove Lane</button>
       </div>
       <div className={styles.LaneHeader}>
         <h4><Edit
